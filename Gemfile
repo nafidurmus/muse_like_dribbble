@@ -14,6 +14,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
+gem 'haml', '~> 5.0', '>= 5.0.4'
+gem 'simple_form', '~> 3.5'
+gem 'devise', '~> 4.3'
+gem 'paperclip', '~> 5.1'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
